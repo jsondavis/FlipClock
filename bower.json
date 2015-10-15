@@ -1,15 +1,16 @@
 {
-  "name": "flipclock",
-  "version": "0.7.8",
-  "homepage": "https://github.com/objectivehtml/FlipClock",
+  "name": "flipclock/jsondavis",
+  "version": "0.7.9",
+  "homepage": "https://github.com/jsondavis/FlipClock",
   "authors": [
     "Objective HTML",
     "Justin Kimbrell"
   ],
-  "description": "FlipClock.js is a proper abstract object oriented clock and counter library with a realistic flip effect.",
+  "description": "A fork of FlipClock.js so that I could update the sass src. FlipClock.js is a proper abstract object oriented clock and counter library with a realistic flip effect.",
   "main": [
     "compiled/flipclock.js",
-    "compiled/flipclock.css"
+    "compiled/flipclock.css",
+    "src/flipclock/css/flipclock.scss"
   ],
   "license": "MIT",
   "ignore": [
@@ -20,3 +21,4 @@
     "jquery": ">=1.7.0"
   }
 }
+
